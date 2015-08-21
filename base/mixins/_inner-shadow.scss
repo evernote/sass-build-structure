@@ -9,5 +9,5 @@
 @mixin inner-shadow($hoff: false, $voff: false, $blur: false, $color: false) {
   -webkit-box-shadow: inset $hoff $voff $blur $color;
      -moz-box-shadow: inset $hoff $voff $blur $color;
-      box-shadow: inset $hoff $voff $blur $color;
+          box-shadow: inset $hoff $voff $blur $color;
 }

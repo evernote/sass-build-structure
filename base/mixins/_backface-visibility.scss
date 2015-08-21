@@ -7,8 +7,7 @@
 // example: @include backface-visibility("hidden");
 
 @mixin backface-visibility($value) {
-
   -webkit-backface-visibility: $value;
      -moz-backface-visibility: $value;
-      backface-visibility: $value;
+          backface-visibility: $value;
 }
