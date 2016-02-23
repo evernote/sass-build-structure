@@ -4,9 +4,5 @@
 *.tmp
 .sass-cache
 *.log
-<<<<<<< HEAD
-node_modules/
+node_modules
 npm-debug.log
-=======
-node_modules/
->>>>>>> e5466e516972f8382974c8042350f5180a74d726
