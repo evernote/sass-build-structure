@@ -3,13 +3,13 @@
 *:before {
   @include box-sizing(border-box);
 }
-.row{
+.row {
 	@include rem("max-width", $maxWidth);
   @include clearfix();
-	margin:0 auto;
+	margin: 0 auto;
 }
 
-.col{
+.col {
   margin-left: 1.6%;
 }
 

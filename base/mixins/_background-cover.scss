@@ -6,7 +6,7 @@
 
 // example: @include background-cover();
 
-@mixin background-cover(){
+@mixin background-cover() {
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;

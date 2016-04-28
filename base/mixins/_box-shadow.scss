@@ -6,6 +6,6 @@
 
  // example: @include box-shadow(1px, 2px, 2px, 2px, #000);
 
-@mixin box-shadow($hoff: false, $voff: false, $blur: false, $spread: false, $color: false){
+@mixin box-shadow($hoff: false, $voff: false, $blur: false, $spread: false, $color: false) {
   box-shadow: $hoff $voff $blur $spread $color;
 }
